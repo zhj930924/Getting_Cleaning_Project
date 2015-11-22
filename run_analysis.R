@@ -5,8 +5,14 @@ if (!require("data.table")) {
 if (!require("reshape2")) {
         install.packages("reshape2")
 }
+if (!require("Rcpp")) {
+        install.packages("Rcpp")
+}
 require("data.table")
 require("reshape2")
+library(data.table)
+library(Rcpp)
+library(reshape2)
 
 #Download the zip file
 
